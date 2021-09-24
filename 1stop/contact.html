@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance E-commerce|contact</title>
+    
+    <link rel="stylesheet" href=" Advanced E-commerce.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class=" nav nav_top">
+    <div class="logo">
+       <a href="Advanced E-commerce.html"><img src="1 stop.png" width="150"></a>
+    </div>
+    <div class="nav_side">
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="blogs.html">blogs</a>
+        <a href="contact.html">contacts</a>
+        <a href="login.html">Login/Register </a>
+
+    </div>
+</nav>
+<div class="contact_container">
+    <h2>contact us</h2>
+    <div class=g_map>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3810.5570766814176!2d78.4293851!3d17.2402633!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbbb7fb1d91b45%3A0x532029ec33eaa851!2sRajiv%20Gandhi%20International%20Airport!5e0!3m2!1sen!2sin!4v1631035641047!5m2!1sen!2sin" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="contact_content">
+        <p><b>Adress:Hyderabad,India</b></p>
+        <p><b>Call:916865695425</b></p>
+        <p><b>Mail:1stop.ai@gmail.com</b></p>
+        
+    </div>
+</div>
+<div class="feed">
+    <h2>Write a review</h2>
+    <div class="feed_form">
+        <form   name="submit-goglesheet" method="post">
+            <input type="text" name="Name" placeholder="Name"><br>
+            <input type="text" name="Email" placeholder="Email ID"><br>
+           <input type="text" name="Number" placeholder="Contact Number"><br>
+           <textarea  rows="5" cols="7" name="Review" placeholder="Write your review"></textarea><br>
+           <button type="submit">Submit </button>
+        </form>
+    </div>
+</div>
+
+    
+    <footer>
+        <div class=" footer_logo">
+            <a href="#"><img src="1 stop.png" width="150"></a>
+         </div>
+         <div class="pages">
+             <a href="about.html">About US</a>
+             <a href="services.html">Services</a>
+             <a href="blogs.html">Blogs</a>
+             <a href="login.html">Login</a>
+             <a href="signup.html">Sign Up</a>
+         </div>
+         <div class="doc">
+             <h3>Documents</h3>
+             <a href="">Privacy Policy</a>
+             <a href="">Terms of User</a>
+             <a href="">Refund Policy</a>
+         </div>
+         <div class="social">
+             <h3>Follow Us</h3>
+             <a href="https://fontawesome.com/v4.7.0/examples/"></a>
+             <a href="https://www.facebook.com/uomstop1/" target="_blank" > <i class="fa fa-facebook-square"></i></a>
+             <a href="https://www.linkedin.com/company/1stop-ai/?originalSubdomain=in"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>
+             </a>
+               <a href="https://www.instagram.com/1stop.ai/?hl=en"target="_blank" ><i class="fa fa-instagram" aria-hidden="true"></i></a>
+               
+         </div>
+         <div class="contact">
+             <h3>Contact Us</h3>
+            <a href="https://api.WhatsApp.com/send/phone=+916658958625" target="=_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            <a href="mailto: support@1stop.ai"target=_blank><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a href="tell:+916658958625" target=_blank><i class="fa fa-phone" aria-hidden="true"></i></a>
+         </div>
+         <hr>
+         <p>copyright &copy; 2021.All rights reserved</p>
+    </footer>
+<script type="text/javascript">
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwuPEiyG7N5gInMKLfmHPTDKJ-nPcmyabfCUzlvg7YC1xco776QZ7SfUkwZEic8ZqqFQQ/exec'
+        const form = document.forms['submit-goglesheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+            .catch(error => console.error('Error!', error.message))
+        })
+</script>
+</body>
+</html> 
